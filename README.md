@@ -1,2 +1,2 @@
-##archivo readme de mi proyecto web
-Itzel
+# Mi primer proyecto web
+ es mi proyecto web para el curso Desarrollador web jr.
