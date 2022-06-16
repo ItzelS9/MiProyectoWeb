@@ -1,0 +1,30 @@
+body{
+    font-family: 'Fascinate Inline', cursive;
+    background-color: rgb(77, 77, 77);
+    font-size: 20px;
+    color: black;
+}
+#titulo{
+    text-align: center;
+    background-color: gainsboro;
+    border-style: dashed;
+    border-radius: 120px;
+}
+p{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parrafo{
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#subtitulo{
+    width: 165px;
+    height: 45px;
+    color: gainsboro;
+    background-color: black;
+    border-style: ridge
+    
+}
