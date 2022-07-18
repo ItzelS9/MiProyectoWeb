@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pokedex.css">
     <title>Pókedex</title>
 </head>
 <body>
@@ -17,13 +17,14 @@
      <a href="#">Acerca</a>
   </nav>
   <hr>
+  <h2>¡Hola! Este es mi pókedex sobre...¡Pokemons de tipo électrico!</h2>
   <main>
      <div id="pokedex">
         <div id="left">
             <div class="display">
-                <img id="pkmn-img" src="pokedex/pikachu.webp" alt="pokemon">
+                <img id="pkm-img" src="pokedex/pikachu.webp" alt="pokemon">
             </div>
-            <div id="dpad">
+            <div id="dpad" onclick="buscar()">
                 <div id="dpad-top"></div>
                 <div id="dpad-horizontal"></div>
                 <div id="dpad-bottom"></div>
@@ -34,19 +35,19 @@
             <div class="display">
              <ul>
                  <li>
-                     <p><b>Nombre: </b>Pikachu</p>
+                     <p id="name"><b>Nombre: </b>Pikachu</p>
                  </li>
                  <li>
-                     <p><b>Tipo: </b>Eléctrico</p>
+                     <p id="type"><b>Tipo: </b>Eléctrico</p>
                  </li>
                  <li>
-                     <p><b>Altura: </b>0.4m</p>
+                     <p id="height"><b>Altura: </b>0.4m</p>
                  </li>
                  <li>
-                     <p><b>Peso: </b>6kg</p>
+                     <p id="weight"><b>Peso: </b>6kg</p>
                  </li>
                  <li>
-                     <p><b>Descripción: </b>Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación.</p>
+                     <p id="des"><b>Descripción: </b>Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación.</p>
                  </li>
              </ul>
             </div>
@@ -63,5 +64,9 @@
         </div>
      </div>
   </main>
+  <script type="text/javascript" src="prueba.js"></script>    
+  <script>
+      buscar();
+  </script>
 </body>
 </html>
