@@ -1,0 +1,57 @@
+{
+    "apiName":"numerologia angelical",
+    "origin":"queretaro",
+    "created":2022,
+    "figures":[
+        {
+            "id":1,
+            "name":"000",
+            "figure":"https://drive.google.com/uc?export=vew&id=1LPRRFDxUmJbQYGGMqyQHN1x_oXDSnZRu"
+        },
+        {
+            "id":2,
+            "name":"111",
+            "figure":"https://drive.google.com/uc?export=view&id=1LRgAtnEcoIrCys6O5jyrBG0scCDXlhd7"    
+        },
+        {
+            "id":3,
+            "name":"222",
+            "figure":"https://drive.google.com/uc?export=view&id=1LgOu-XdaiUaUG57ZujJmmY-kc0V0dQMf"        
+        },
+        {
+            "id":4,
+            "name":"333",
+            "figure":"https://drive.google.com/uc?export=view&id=1LguwYObZWUdMVoAi_hv41iqzUkyNnLWI"  
+        },
+        {
+            "id":5,
+            "name":"444",
+            "figure":"https://drive.google.com/uc?export=view&id=1Ll1HZEunsb3-MxvKL7fOJuFVIDFD-7vd"      
+        },
+        {
+            "id": 6,
+            "name": "555",
+            "figure": "https://drive.google.com/uc?export=view&id=1Ln51f9y1rp890JtMZI1uR3GQZ0tJz0ZD"
+        },
+        {
+            "id": 7,
+            "name": "666",
+            "figure": "https://drive.google.com/uc?export=view&id=1LtPP0PyOfFn2cVAPjxtBshigb9dKSgq2"
+        },
+        {
+            "id": 8,
+            "name": "777",
+            "figure": "https://drive.google.com/uc?export=view&id=1LvoIV-vz8kUapa5sQi5ggIdLioNNoJd3"
+        },
+        {
+            "id": 9,
+            "name": "888",
+            "figure": "https://drive.google.com/uc?export=view&id=1LweNkKctgXQug6i1QgjEWoNxa-G9R4sc"
+        },
+        {
+            "id": 10,
+            "name": "999",
+            "figure": "https://drive.google.com/uc?export=view&id=1M2WyGcpOoRyZFoadcXcABfBPtYMNXjzj"
+        }
+    ]
+}
