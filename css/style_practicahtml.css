@@ -1,0 +1,92 @@
+html{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(233, 233, 233);
+    font-size: 18px;
+}
+
+body{
+    width: 80%;
+    height: 1790px;
+    margin: auto;
+    background-color: rgb(128,128,128);
+}
+
+main{
+    width:90%;
+    margin: auto;
+}
+
+header,footer {
+    width:100%;
+    height:110px;
+    background-color: gainsboro;
+}
+
+#p1 {
+    width: 95%;
+    height: 160px;
+    background-color: gainsboro;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkslategray;
+}
+#p2 {
+    width: 95%;
+    height: 40px;
+    background-color: gainsboro;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkslategray;
+}
+.resumen {
+    width: 98%;
+    height: 230px;
+    padding-bottom: 0;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: black;
+}
+section > #p2 {
+    display: inline block;
+    margin-left: 70px;
+}
+
+.parrafos {
+    width: 200px;
+}
+
+div{
+    height: 1448px;
+    background-color: rgb(173, 173, 173);
+    padding: 0px;
+}
+
+section{
+    width: 90%;
+    height: 320px;
+    margin: 20px;
+    background-color: rgb(156, 156, 156);
+    padding: 0px;
+    margin-left: 50px;
+}
+
+section:hover {
+   background-color: rgb(134, 134, 134);
+}
+.resumen:hover {
+    background-color: rgb(110, 110, 110);
+}
+p{
+    width: 130px;
+    padding: 7px;
+    background-color: white;
+    border: 1px black solid;
+    text-align: center;
+    margin-top: 0px;
+}

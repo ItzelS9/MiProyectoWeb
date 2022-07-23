@@ -4,14 +4,17 @@ h1 {
     padding: 20px;
     text-align: center;
     color: white;
-    background-color: lightsalmon;
+    background-color: rgb(84, 84, 84);
     border-radius: 300px;
-    border-style: dashed;
+    border-style: solid;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ h1:hover {
+    background-color:  rgb(54, 54, 54);
  }
  body {
-     background-color: rgb(255, 182, 140);
+     background-color: rgb(106, 109, 117);
  }
  h2 {
      width: auto;
@@ -22,17 +25,33 @@ h1 {
      text-align: left;
  }
  section {
-     width: 18%;
+     width: 20%;
      height: 235px;
      margin: auto;
      margin-bottom: 55px;
-     background-color: rgb(233, 131, 97);
+     background-color: rgb(202, 206, 211);
      font-size: 240px;
      border-bottom-left-radius: 40px;
      border-bottom-right-radius: 40px;
      border-top-left-radius: 50px;
      border-top-right-radius: 50px;
      text-align: center;
+ }
+ section > a {
+    transition:background-color.5 ;
+    border-style: none;
+ }
+ a:hover {
+    background-color: rgba(70, 70, 70, 0.918);
+    padding-block: 0px;
+    padding-top: 6px;
+ }
+ a {
+    display: block;
+    padding-block: 0px;
+    padding-top: 6px;
+    background-color: grey;
+    border-radius: 20px;
  }
  /*smarthphone vertical */
  @media (max-width:639px){

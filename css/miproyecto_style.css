@@ -1,0 +1,144 @@
+body{
+    font-family: 'Fascinate Inline', cursive;
+    background-color: rgb(138, 138, 138);
+    font-size: 20px;
+    color: black;
+    width: 92%;
+    padding-left: 4%;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: gainsboro;
+    margin: auto;
+    height: 75px;
+    border-style: solid;
+}
+
+menu, #titulo {
+    display: inline-block;
+    border-radius: 10px;
+    outline: none;
+}
+
+#titulo{
+    text-align: left;
+    font-size: 45px;
+    padding-left: 5px;
+    padding-right: 6px;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    padding-left: 826px;
+}
+
+#imagen {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2:hover {
+    background-color: rgb(100, 100, 100);
+    color: gainsboro;
+}
+
+div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#numerologias {
+    background-color: rgb(83, 87, 95);
+    padding: 8px;
+    width: 900px;
+    margin-left: 190px;
+    border-style: solid;
+}
+
+#tiposnumerologias {
+    background-color: rgb(202, 206, 211);
+    padding: 20px;
+    border-style: solid;
+}
+
+ul {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(69, 74, 84);
+    text-align: left;
+}
+
+#angel {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: 0;
+    color: #fff;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 9px;
+}
+#subtitulo{
+    width: 165px;
+    height: 45px;
+    color: gainsboro;
+    background-color: black;
+    border-style: ridge;
+}
+
+#img1 {
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 20px;
+}
+
+#factores {
+    background-color: rgb(128, 128, 128);
+}
+
+#numtantricos {
+    font-size: 33px;
+}
+
+#calcular_tantrico {
+    background-color: rgb(83, 87, 95);
+    padding: 8px;
+    width: 900px;
+    margin-left: 190px;
+    border-style: solid;
+}
+
+.factores_tan {
+    background-color: gainsboro;
+}
+
+.factores_tan:hover {
+    background-color: rgb(196, 196, 196);
+}
+#entrada {
+    font-size: 60px;
+}
+#boton {
+    font-size: 50px
+}
+#status {
+    font-size: 50px;
+    color: white;
+}
