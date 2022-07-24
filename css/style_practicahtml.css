@@ -79,6 +79,9 @@ section, #section_kdrama4 {
 section:hover {
    background-color: rgb(134, 134, 134);
 }
+#section_kdrama4:hover {
+    background-color: rgb(134, 134, 134);
+}
 .resumen:hover {
     background-color: rgb(110, 110, 110);
 }
@@ -148,9 +151,36 @@ p{
         height: 2460px;
     }
  }
- /*tablets horizontal & laptop vertical (touch screen)
+ /*tablets horizontal & laptop vertical (touch screen)*/
  @media only screen and (min-width:1024px) and (max-width:1279px){
-
+    body {
+        width: 85%;
+        margin-left: 50px;
+        height: 2305px;
+    }
+    section {
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+        height: 415px;
+    }
+    #section_kdrama4 {
+        height: 405px;
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    header, footer {
+        height: 140px;
+    }
+    .resumen {
+        margin: auto;
+        width: 94%;
+        height: auto;
+    }
+    div {
+        height: 1900px;
+    }
 }
  
  /*laptops & monitores
