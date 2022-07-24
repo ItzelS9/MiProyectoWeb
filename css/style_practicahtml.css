@@ -67,7 +67,7 @@ div{
     padding: 0px;
 }
 
-section{
+section, #section_kdrama4 {
     width: 90%;
     height: 320px;
     margin: 20px;
@@ -90,3 +90,74 @@ p{
     text-align: center;
     margin-top: 0px;
 }
+ /*smarthphone vertical*/
+ @media (max-width:639px){
+    body {
+        width: 85%;
+        margin-left: 50px;
+        height: 3620px;
+    }
+    section {
+        margin: 20px;
+        margin-top: 40px;
+        height: 725px;
+    }
+    #section_kdrama4 {
+        height: 665px;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    header, footer {
+        height: 210px;
+    }
+    .resumen {
+        margin: auto;
+        width: 94%;
+        height: auto;
+    }
+    div {
+        height: 3100px;
+    }
+ }
+ /*smarthphone horizontal & tablets vertical*/ 
+ @media only screen and (min-width:640px) and (max-width:1023px){
+    body {
+        width: 85%;
+        margin-left: 50px;
+        height: 2920px;
+    }
+    section {
+        margin: 20px;
+        margin-top: 40px;
+        height: 550px;
+    }
+    #section_kdrama4 {
+        margin: 20px;
+        margin-top: 40px;
+        height: 550px;
+    }
+    header, footer {
+        height: 178px;
+    }
+    .resumen {
+        margin: auto;
+        width: 94%;
+        height: auto;
+    }
+    div {
+        height: 2460px;
+    }
+ }
+ /*tablets horizontal & laptop vertical (touch screen)
+ @media only screen and (min-width:1024px) and (max-width:1279px){
+
+}
+ 
+ /*laptops & monitores
+ @media only screen and (min-width:1280px) and (max-width:1919px){
+
+ }
+ /*televisores
+ @media only screen and (min-width:1920px){
+
+ }
