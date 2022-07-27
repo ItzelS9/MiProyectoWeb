@@ -98,12 +98,12 @@ p{
     body {
         width: 85%;
         margin-left: 50px;
-        height: 3620px;
+        height: 4940px;
     }
     section {
         margin: 20px;
         margin-top: 40px;
-        height: 725px;
+        height: 955px;
     }
     #section_kdrama4 {
         height: 665px;
@@ -111,7 +111,7 @@ p{
         margin-top: 40px;
     }
     header, footer {
-        height: 210px;
+        height: 255px;
     }
     .resumen {
         margin: auto;
@@ -119,14 +119,14 @@ p{
         height: auto;
     }
     div {
-        height: 3100px;
+        height: 4030px;
     }
  }
  /*smarthphone horizontal & tablets vertical*/ 
  @media only screen and (min-width:640px) and (max-width:1023px){
     body {
         width: 85%;
-        margin-left: 50px;
+        margin-left: 70px;
         height: 2920px;
     }
     section {
@@ -183,11 +183,61 @@ p{
     }
 }
  
- /*laptops & monitores
+ /*laptops & monitores*/
  @media only screen and (min-width:1280px) and (max-width:1919px){
-
+    body {
+        width: 85%;
+        margin-left: 90px;
+        height: 2305px;
+    }
+    section {
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+        height: 415px;
+    }
+    #section_kdrama4 {
+        height: 405px;
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    header, footer {
+        height: 140px;
+    }
+    div {
+        height: 1900px;
+    }
  }
- /*televisores
+ /*televisores*/
  @media only screen and (min-width:1920px){
-
+    body {
+        background-color: greenyellow;
+        width: 85%;
+        margin-left: 50px;
+        height: 2305px;
+    }
+    section {
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+        height: 415px;
+    }
+    #section_kdrama4 {
+        height: 405px;
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    header, footer {
+        height: 140px;
+    }
+    .resumen {
+        margin: auto;
+        width: 94%;
+        height: auto;
+    }
+    div {
+        height: 1900px;
+    }
  }
