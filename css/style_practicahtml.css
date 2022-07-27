@@ -93,43 +93,10 @@ p{
     text-align: center;
     margin-top: 0px;
 }
-/*menos de 639px
- @media only screen and (max-width:638px) {
-    body {
-        background-color: red;
-        width: 85%;
-        margin-left: 10px;
-        height: 4940px;
-    }
-    section {
-        margin: 20px;
-        margin-top: 40px;
-        height: 955px;
-    }
-    #section_kdrama4 {
-        height: 665px;
-        margin: 20px;
-        margin-top: 40px;
-    }
-    header, footer {
-        height: 277px;
-    }
-    .resumen {
-        margin: auto;
-        width: 94%;
-        height: auto;
-    }
-    div {
-        height: 4223px;
-    }
-    p {
-        width: 155px;
-    }
- }*/
+
  /*smarthphone vertical*/
  @media (max-width:639px){
     body {
-        background-color: blueviolet;
         width: 85%;
         margin-left: 50px;
         height: 4940px;
