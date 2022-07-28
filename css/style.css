@@ -24,6 +24,10 @@ h1 {
      color: white;
      text-align: left;
  }
+ div {
+    float: left;
+    margin: 30px;
+ }
  section {
      width: 20%;
      height: 235px;
