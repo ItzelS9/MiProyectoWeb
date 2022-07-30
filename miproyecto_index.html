@@ -5,7 +5,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="" rel="stylesheet">
     <link rel="stylesheet" href="css/miproyecto_style.css">
-    <link rel="stylesheet" href="css/miproyecto_style.css">
     <link rel="license" href="LICENSE.txt" hreflang="en-US">
     <link rel="icon" href="icon.svg">
     <link rel="apple-touch-icon" href="https://user-images.githubusercontent.com/949985/126719676-367d2b0a-3815-4c34-a9d4-a85d3ba444ea.png">
@@ -24,23 +23,58 @@
 </head>
 <body>
     <header>
-    <img id="menu" src="mipag_web/icono_de3.png" alt="menu">
-    <h1 id="titulo" >Numerología</h1>
     <img id="logo" src="mipag_web/logooficial.jpg" alt="logo">
+    <h1 id="titulo" >Numerología</h1>
     </header>
+    <!-- start nav -->
+    <nav id="listamenu">
+    <!-- start menu -->
+        <ul>
+            <li><a href="#que_es"></a>Inicio</li>
+            <li><a href="#"></a>Numerologías
+            <!-- start menu desplegable -->
+            <ul>
+                <li><a href="#angelical"><b>Angelical</b></a></li>
+                <li><a href="#tantrica"><b>Tántrica</b></a></li>
+                <li><a href="#numeros y planetas"><b>Números y Planetas</b></a></li>
+                <li><a href="#numerologia de vida"><b>Número de vida</b></a></li>
+            </ul>
+            <!-- end menu desplegable -->
+            </li>
+            <li><a href="#historia"></a>Historia</li>
+            <li><a href="#"></a>Calcular
+            <!-- start menu desplegable -->
+            <ul>
+                <li><a href="#"><b>Número angelical</b></a></li>
+                <li><a href="#"><b>Número Tántrico</b></a></li>
+                <li><a href="#"><b>Número Planetas</b></a></li>
+                <li><a href="#"><b>Número de vida</b></a></li>
+            </ul>
+            <!-- end menu desplegable -->
+            </li>
+        </ul>
+    <!-- end menu -->
+    </nav>
+    <!-- end nav -->
+    <hr>
     <div id="imagen"><img src="mipag_web/numerologia.jpg" alt="numerologia"></div>
-    <h2>¿Qué es la numerología?</h2>
+    <h2 id="que_es">¿Qué es la numerología?</h2>
     <p>La numerología es el estudio de la relación que existe entre los números, letras y patrones, de manera que estos definen como es tu actitud, personalidad, futuro y número de la suerte a traves de diferentes formas y métodos. También es una práctica adivinatoria a través de los números.</p>
     <h2>¿Que tipos de numerologías existen?</h2>
     <div id="numerologias"> 
     <p id="tiposnumerologias">Existen infinidades de tipos de numerologías, pero, solo les hablaré de algunas que son:</p>
      <ul>
-     <li><a href="#angelical" style="color: white; text-decoration: none;">Ángelical</a></li>
-     <li><a href="#tantrica" style="color: white; text-decoration: none;">Tántrica</a></li>
-     <li><a href="#numeros y planetas" style="color: white; text-decoration: none;">Números y Planetas</a></li>
-     <li><a href="#numerologia de vida" style="color: white; text-decoration: none;">Numerología de vida, nacimiento y nombre</a></li>
+     <li class="t">Ángelical</a></li>
+     <li class="t">Tántrica</a></li>
+     <li class="t">Números y Planetas</a></li>
+     <li class="t">Número de Vida</a></li>
      </ul>
     </div>
+    <h2 id="historia">Historia y Datos de la numerología</h2>
+    <p>Los orígenes de la numerología datan del año 569 al 470 AC. El filósofo griego Pitágoras se dedicó al estudio de la metafísica de los números y creía que cada uno de ellos puede reducirse a un simple dígito. Según él, al comprender este simple dígito podíamos entender cual era nuestro destino y mensaje.</p>
+    <p>Según los numerólogos, los números son mucho más que una forma de medir o cuantificar lo que existe a nuestro alrededor. Pitágoras creía que el universo debe ser visto como un todo armonioso, donde todo emite un sonido o vibración. Los números del 1 al 9 están asociados a características específicas, que juntas abarcan toda la experiencia de la vida.</p>
+    <p>La Kabbalah, un libro de textos del misticismo. Utiliza las letras del alfabeto hebreo para encontrar el significado numerológico de un nombre. Esta técnica fue utilizada en principio por los filósofos kabalísticos como una forma de esconder el texto de la Kabbalah de los no creyentes. Con el tiempo, empezó a utilizarse como una manera de encontrar nuestra misión y nuestro rol en la vida, y bienestar a partir de nuestro nombre.</p>
+    <p>La numerología fue introducida al mundo moderno por la señora L. Dow Balliett, una influyente espiritualista de principios del siglo XX, que escribió varios libros sobre el tema. Su estudiante, la Dra. Juno Joran, es responsable de haber hecho que las personas conocieran el método de un único número que empleamos hoy en día.</p>
     <hr>
     <h2 id="angelical">Numerología Ángelical</h2>
     <p>La numerología ángelical trata de varias cifras que repiten el mismo número, por ejemplo, 444 o 222. A estos números se les dice "números ángelicales" porque se cree que estos números son una forma de comunicación por parte de los ángeles con el próposito de enviar un mensaje divino cuando estes pasando por momentos difíciles y así poder ayudarte a superarlos.</p>
@@ -107,7 +141,7 @@
     <a href="numeros_y_planetas.html"><img src="mipag_web/planetas.jpg" alt="planetas"></a>
     </div>
     <hr>
-    <h2 id="numerologia de vida">Numerología de Vida, Nacimiento y Nombre</h2>
+    <h2 id="numerologia de vida">Número de Vida</h2>
     <p>La numerologia de vida, nacimiento y nombre se saca justo con el dia, mes y año en el que naciste mas tu nombre completo. El resultado de estos es tu numerología de vida que tiene como finalidad describir el tipo de persona que eres.</p>
     <div>    
     <section id="prueba01">
@@ -116,6 +150,5 @@
 
         <label>Fecha de Nacimiento:</label>
         <input type="date" value="0000-00-00" />
-    </div>
     </body>
 </html>
