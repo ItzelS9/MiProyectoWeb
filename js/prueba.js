@@ -4,7 +4,7 @@ var long=0;
     const url = "https://itzels9.github.io/ejem_json_api/poke.json";
 
     function buscar(){
-    
+
         fetch(url)
         .then(function(response){
             return response.json();    

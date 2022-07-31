@@ -45,7 +45,7 @@
             "tipo":"Electrico",
             "altura": 1.8,
             "peso": 20.5,
-            "descripcion":"Tapu Koko es un Pokémon legendario de la séptima generación. Es el espíritu guardián de Melemele, isla de Alola.",
+            "descripcion":"Tapu Koko es un Pokémon legendario de la séptima generación. Es el espíritu guardián de Melemele.",
             "figure":"pokedex/tapu koko.png"      
         }
     ]
