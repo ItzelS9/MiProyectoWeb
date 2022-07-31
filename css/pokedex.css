@@ -16,8 +16,22 @@ header > h1 {
     width: 60px;
 }
 nav {
-    margin: 10px 10%;
+    /*margin: 10px 10%;*/
+    background-color: rgb(61, 60, 70);
+    padding: 30px;
+    width: 1306px;
+    margin: 0px;
 }
+
+a {
+    color: white;
+    font-size: 27px;
+}
+
+hr {
+    margin: 0px;
+}
+
 nav > a {
     padding: 0 10px;
 }

@@ -27,7 +27,7 @@
             "tipo":"Electrico",
             "altura": 0.8,
             "peso": 24.5,
-            "descripcion":"Jolteon es un Pokémon de tipo eléctrico de la primera generación. Es una de las ocho evoluciones de Eevee. ¿A qué es lindo?",
+            "descripcion":"Jolteon es un Pokémon de tipo eléctrico de la primera generación. Es una de las ocho evoluciones de Eevee.",
             "figure":"pokedex/joldeon.png"        
         },
         {
