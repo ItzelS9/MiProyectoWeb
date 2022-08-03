@@ -98,13 +98,17 @@ p{
  @media (max-width:639px){
     body {
         width: 85%;
-        margin-left: 50px;
-        height: 4940px;
+        margin-left: auto + 10px;
+        height: auto;
+        padding-block: 30px;
+        padding-top: 0px;
     }
     section {
         margin: 20px;
         margin-top: 40px;
-        height: 955px;
+        height: auto;
+        padding-block: 60px;
+        padding-top: 0px;
     }
     #section_kdrama4 {
         height: 665px;
@@ -118,9 +122,19 @@ p{
         margin: auto;
         width: 94%;
         height: auto;
+        font-size: 20px;
+        padding-block: 10px;
     }
     div {
-        height: 4030px;
+        height: auto;
+        padding-block: 30px;
+        padding-top: 0px;
+    }
+    p {
+        width: auto;
+    }
+    .parrafos {
+        width: auto;
     }
  }
  /*smarthphone horizontal & tablets vertical*/ 
