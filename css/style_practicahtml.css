@@ -111,12 +111,14 @@ p{
         padding-top: 0px;
     }
     #section_kdrama4 {
-        height: 665px;
         margin: 20px;
         margin-top: 40px;
+        height: auto;
+        padding-block: 60px;
+        padding-top: 0px;
     }
-    header, footer {
-        height: 255px;
+    header, footer{
+        height: 270px;
     }
     .resumen {
         margin: auto;
