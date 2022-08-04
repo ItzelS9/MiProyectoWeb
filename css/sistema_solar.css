@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    width: 92%;
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: gainsboro;
+}
+
+a {
+    color: rgb(128, 128, 128);
+}
+
+#mercurio {
+    color: peachpuff;
+    font-size: 30px;
+}
+
+#venus {
+    color: burlywood;
+    font-size: 30px;
+}
+
+#tierra {
+    color: lightgreen;
+    font-size: 30px;
+}
+
+#marte {
+    color: darkred;
+    font-size: 30px;
+}
+
+#jupiter {
+    color: silver;
+    font-size: 30px;
+}
+
+#saturno {
+    color: sienna;
+    font-size: 30px;
+}
+
+#urano {
+    color: skyblue;
+    font-size: 30px;
+}
+
+#neptuno {
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+div {
+    margin-block: 130px;
+}
