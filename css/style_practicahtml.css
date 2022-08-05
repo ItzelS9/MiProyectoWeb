@@ -79,12 +79,15 @@ section, #section_kdrama4 {
 section:hover {
    background-color: rgb(134, 134, 134);
 }
+
 #section_kdrama4:hover {
     background-color: rgb(134, 134, 134);
 }
+
 .resumen:hover {
     background-color: rgb(110, 110, 110);
 }
+
 p{
     width: 130px;
     padding: 7px;
