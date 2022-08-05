@@ -7,6 +7,28 @@ body {
     padding-left: 3%;
 }
 
+h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2:hover {
+    background-color: rgb(100, 100, 100);
+    color: gainsboro;
+}
+
+.especiales {
+    text-align: center;
+    color: rgb(46, 46, 46);
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+}
+
 header {
     display: flex;
     justify-content: left;
