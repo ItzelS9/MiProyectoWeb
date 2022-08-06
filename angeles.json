@@ -22,6 +22,26 @@
         {
             "id":5,
             "figure":"numerologia_angelical/444.jpg"      
+        },
+        {
+            "id":6,
+            "figure":"numerologia_angelical/555.jpg"
+        },
+        {
+            "id":7,
+            "figure":"numerologia_angelical/666.jpg"
+        },
+        {
+            "id":8,
+            "figure":"numerologia_angelical/777.jpg"
+        },
+        {
+            "id":9,
+            "figure":"numerologia_angelical/888.jpg"
+        },
+        {
+            "id":10,
+            "figure":"numerologia_angelical/999.jpg"
         }
     ]
 }
