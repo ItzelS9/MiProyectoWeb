@@ -1,0 +1,52 @@
+{
+    "apiName":"mipokedex",
+    "origen":"queretaro",
+    "creado":2022,
+    "personajes":[
+        {
+            "id":1,
+            "nombre":"Pikachu",
+            "tipo":"Electrico",
+            "altura":0.4,
+            "peso": 6,
+            "descripcion":"Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación.",
+            "figure":"pokedex/pikachu.png"
+        },
+        {
+            "id":2,
+            "nombre":"Electrode",
+            "tipo":"Electrico",
+            "altura": 1.2,
+            "peso": 66.6,
+            "descripcion":"Electrode es un Pokémon artificial eléctrico de la primera generación.Tiende a explotar por la mas mínima cosa",
+            "figure":"pokedex/electrode_.png"    
+        },
+        {
+            "id":3,
+            "nombre":"Joldeon",
+            "tipo":"Electrico",
+            "altura": 0.8,
+            "peso": 24.5,
+            "descripcion":"Jolteon es un Pokémon de tipo eléctrico de la primera generación. Es una de las ocho evoluciones de Eevee.",
+            "figure":"pokedex/joldeon.png"        
+        },
+        {
+            "id":4,
+            "nombre":"Electabuzz",
+            "tipo":"Electrico",
+            "altura": 1.1,
+            "peso": 30,
+            "descripcion":"Electabuzz es un Pokémon de tipo eléctrico de la primera generación. Es la contraparte de Magmar y Jynx.",
+            "figure":"pokedex/electabuzz.png"  
+        },
+        {
+            "id":5,
+            "nombre":"Tapu koko",
+            "tipo":"Electrico",
+            "altura": 1.8,
+            "peso": 20.5,
+            "descripcion":"Tapu Koko es un Pokémon legendario de la séptima generación. Es el espíritu guardián de Melemele.",
+            "figure":"pokedex/tapu koko.png"      
+        }
+    ]
+}
