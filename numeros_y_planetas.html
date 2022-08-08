@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/numeros_planetas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>numeros y planetas</title>
 </head>
 <body>
@@ -12,39 +13,18 @@
      <img id="logo" src="mipag_web/logooficial.jpg" alt="logo">
      <h1 id="titulo" >Números y Planetas</h1>
     </header>
-    <!-- start nav -->
-    <nav id="listamenu">
-    <!-- start menu -->
-        <ul>
-            <li><a href="miproyecto_index.html"></a>Inicio</li>
-            <li><a href="#"></a>Numerología
-            <!-- start menu desplegable -->
-            <ul>
-                <li><a href="numerologia_angelical.html"><b>Angelical</b></a></li>
-                <li><a href="numerologia_tantrica.html"><b>Tántrica</b></a></li>
-            </ul>
-            <!-- end menu desplegable -->
-            </li>
-            <li><a href="#tu_numero"></a>Tú Numero</li>
-            <li><a href="#"></a>Símbolos
-            <!-- start menu desplegable -->
-            <ul>
-                <li><a href="#num1"><b>1: Sol</b></a></li>
-                <li><a href="#num2"><b>2: Luna</b></a></li>
-                <li><a href="#num3"><b>3: Júpiter</b></a></li>
-                <li><a href="#num4"><b>4: Urano</b></a></li>
-                <li><a href="#num5"><b>5: Mercurio</b></a></li>
-                <li><a href="#num6"><b>6: Venus</b></a></li>
-                <li><a href="#num7"><b>7: Neptuno</b></a></li>
-                <li><a href="#num8"><b>8: Saturno</b></a></li>
-                <li><a href="#num9"><b>9: Plutón</b></a></li>
-            </ul>
-            <!-- end menu desplegable -->
-            </li>
-        </ul>
-    <!-- end menu -->
-    </nav>
-    <!-- end nav -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Portafolio</a>
+    <a href="#astro">Astrología</a>
+    <a href="#simbolos">Simbolos</a>
+    <a href="numerologia_angelical.html">Angelical</a>
+    <a href="numerologia_tantrica.html">Tántrica</a>
+    <a href="#calculando">Tú Número</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
     <p class="especiales">La numerología y la Astrología estan mas relacionadas de lo que crees, aquí te enseñaremos acerca de su vinculo, y podrás encontrar cual es tu número, planeta y mensaje.</p>
     <br>
     <center><img src="numerologia_planetas/luna.webp" alt="imagen de astrologia"></center>
@@ -53,25 +33,48 @@
     <br>
     <br>
     <br>
-    <h2>Numerología y Astrología</h2>
+    <h2 id="astro">Numerología y Astrología</h2>
     <p>La base de la numerología es la comprensión de los 9 números, su significado y aplicación a la vida humana. La herramienta principal es la reducción de cualquier número superior a 9, lo cual proviene de los 9 planetas principales. Cuando reducimos los números a un solo dígito nos damos cuenta que la secuencia 1 a 9 se repite hasta el infinito.</p>
     <center><img src="numerologia_planetas/signos.jpg" alt="imagen_planetas"></center>
     <p>El estado del arte de la numerología moderna nos muestra que existen diferentes definiciones para el significado de los números, y que existen varios sistemas para representar el alfabeto con diferentes números (ej: Sistema Latino, Abjad, Chino y el de India). La astrología védica (existente desde hace más de 3500 años) muestra una asociación lógica entre los números y sus significados ya que la observación de la velocidad orbital de los planetas vistos desde la tierra, revela un orden natural y numérico</p>
     <br>
     <br>
     <br>
-    <h2>Los Símbolos de los Planetas</h2>
+    <h2 id="simbolos">Los Símbolos de los Planetas</h2>
     <p>En cuanto al origen de los símbolos astrológicos podemos afirmar que desde el año 1506 d.C. los símbolos son prácticamente idénticos a los que conocemos en la actualidad. Pero, antes de ello, han tenido que pasar por varios cambios para ser lo que son ahora.</p>
     <center><img src="numerologia_planetas/numeros.jpg" alt="simbolos"></center>
     <br>
     <br>
     <br>
     <h2 id="tu_numero">¿Cuál y cómo puedes sacar ese número?</h2>
-    <p>La manera mas sencilla es sumar los dígitos de tu Fecha de nacimiento, completa, hasta reducirla a un solo dígito. Por ejemplo: alguien nacido el 1/12/1995 sumará:</p>
-    <p class="ejemplo">1 + 1 + 2 + 1 + 9 + 9 + 5 = 24 </p>
-    <p>Como es un número mayor a 9, se reduce de esta manera:</p>
-    <p class="ejemplo">2 + 4 = 6</p>
-    <p class="especiales">Por lo que su número es 6. Ahora que sabes como, intentalo con tu fecha de nacimiento y elige tu número para saber cual es tu planeta, compatibilidad y descripción.</p>
+    <div><img src="mipag_web/tabla_numeros.jpg" alt="img_tabla"></div>
+    <p>Como puedes ver, cada letra tiene un valor númerico. Para obtener tu número tienes que sacar cuyos valores de tu primer nombre y sumarlos, mientras los sumas tienes que ir reduciendolos para que al final solo quede <b>un número de un dígito</b>, este número sera el que defina tu Planeta y tu mensaje.</p>
+    <p><b>Ejemplo:</b></p>
+    <div><img src="mipag_web/numero_nombre.jpg" alt="img_ejemplo"></div>
+    <br id="calculando">
+    <p class="especiales">Ahora tienes que hacer lo mismo con <b>tu nombre</b> y cuando lo hayas sacado, descubre cual es tu planeta y mensaje.</p>
+    <br>
+    <main id="main">
+    <form id="formulario" method="get">
+    <div>
+        <input id="entrada" name="_" placeholder="&hellip;" size="26" autocomplete="off">
+        </div>
+        <div id="status" role="status">
+         <output for="suma" name="suma">?</output>
+         <kbd>=</kbd>
+         <output for="numero" name="numero">?</output>
+         <kbd>=</kbd>
+         <output for="raiz" name="raiz">?</output>
+        </div>
+    </form>
+    </main>
+    <script src="js/mi_pag_web.js"></script>
+    <script src="js/calcular_num.js"></script>
+    <script>
+    "serviceWorker" in navigator && console.log("servable")
+    </script>
+    <br>
+    <br>
     <div>
     <a href="#num1" class="los_numeros"><img src="numerologia_planetas/1.jpg" alt="num1"></a>
     <a href="#num2" class="los_numeros"><img src="numerologia_planetas/2.jpg" alt="num2"></a>
@@ -170,5 +173,6 @@
     <p><b>Descripción:</b>Plutón, el dios de las profundidades. Es el arquetipo del guía o del maestro. A diferencia del seis, que representaba el amor familiar o del grupo, el nueve está vinculado con el amor a la humanidad, un tipo de sentimiento más despersonalizado. Es abnegado y tiene gran vocación de servicio: muchos nueve son militantes de causas (ecología o humanitarias, del tipo Médicos sin fronteras).</p>
     <center><img src="numerologia_planetas/pluton.jpg" alt="imagen9"></center>
     <p><b>Compatibilidad:</b> Plutón normalmente suele llevarse bien con Neptuno, Urano y Jùpiter. Suelen sentirse interesados romanticamente con Venus y son neutrales con todos los demas, claro que siempre abra quien no les agrade.</p>
+    <script type="text/javascript" src="js/menu_responsivo.js"></script>
 </body>
 </html>

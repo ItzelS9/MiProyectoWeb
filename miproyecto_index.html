@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="" rel="stylesheet">
     <link rel="stylesheet" href="css/miproyecto_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>¡Numerología!</title>
 </head>
 <body>
@@ -12,26 +13,18 @@
     <img id="logo" src="mipag_web/logooficial.jpg" alt="logo">
     <h1 id="titulo" >Numerología</h1>
     </header>
-    <!-- start nav -->
-    <nav id="listamenu">
-    <!-- start menu -->
-        <ul>
-            <li><a href="index.html"></a>Portafolio</li>
-            <li><a href="#"></a>Numerologías
-            <!-- start menu desplegable -->
-            <ul>
-                <li><a href="numerologia_angelical.html"><b>Angelical</b></a></li>
-                <li><a href="numerologia_tantrica.html"><b>Tántrica</b></a></li>
-                <li><a href="numeros_y_planetas.html"><b>Números y Planetas</b></a></li>
-            </ul>
-            <!-- end menu desplegable -->
-            </li>
-            <li><a href="#que_es"></a>Que es</li>
-            <li><a href="#historia"></a>Historia </li>
-        </ul>
-    <!-- end menu -->
-    </nav>
-    <!-- end nav -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Portafolio</a>
+    <a href="#que_es">¿Qué es?</a>
+    <a href="#historia">Historia</a>
+    <a href="numerologia_angelical.html">Angelical</a>
+    <a href="numerologia_tantrica.html">Tántrica</a>
+    <a href="numeros_y_planetas.html">Números y Planetas</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
     <div id="imagen"><img src="mipag_web/numerologia.jpg" alt="numerologia"></div>
     <p class="saludo">Bienvenido, hoy quiero enseñarte lo que es la numerología y los tipos que hay, enseñarte sobre lo que es y toda su historia del pasado. Aquí podras sacar tus números angelicales,tantricos, etc y podras identificarte con los mensajes y despripciones que esperan por ti.</p>
     <br>
@@ -65,5 +58,6 @@
     <a href="numerologia_tantrica.html"><img src="mipag_web/tantrica_icono.jpg" alt="tantrica" class="paginas">Tántrica</a>
     <a href="numeros_y_planetas.html"><img src="mipag_web/planetas_icono.jpg" alt="numyplanetas" class="paginas">Números y Planetas</a>
     </div>
+    <script type="text/javascript" src="js/menu_responsivo.js"></script>
     </body>
 </html>

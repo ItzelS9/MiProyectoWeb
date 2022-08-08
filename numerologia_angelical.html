@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/angelical_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Angelical</title>
 </head>
 <body>
@@ -12,25 +13,17 @@
         <img id="logo" src="mipag_web/logooficial.jpg" alt="logo">
         <h1 id="titulo" >Numerología Angelical</h1>
         </header>
-        <!-- start nav -->
-        <nav id="listamenu">
-        <!-- start menu -->
-            <ul>
-                <li><a href="miproyecto_index.html"></a>Inicio</li>
-                <li><a href="#"></a>Numerologías
-                <!-- start menu desplegable -->
-                <ul>
-                    <li><a href="numerologia_tantrica.html"><b>Tántrica</b></a></li>
-                    <li><a href="numeros_y_planetas.html"><b>Números y Planetas</b></a></li>
-                </ul>
-                <!-- end menu desplegable -->
-                </li>
-                <li><a href="#que_es"></a>¿Que es?</li>
-                <li><a href="#tu_num_angelical"></a>Numero angelical</li>
-            </ul>
-        <!-- end menu -->
-        </nav>
-        <!-- end nav -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Portafolio</a>
+        <a href="#que_es">¿Qué es?</a>
+        <a href="#historia">Historia</a>
+        <a href="numerologia_tantrica.html">Tántrica</a>
+        <a href="numeros_y_planetas.html">Números y Planetas</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <p class="especiales">La numerologia Angelical es lo que mas me a interesado personalmente, descubre acerca de esta y ¡encuentra tu mensaje especial!</p>
     <center><img src="numerologia_angelical/dos_angeles.jpg" alt="angel"></center>
     <p>Imaginar que los ángeles nos mandan señales a lo largo de nuestra vida parece ser algo sacado de una novela dramática y de cuentos de hadas, pero lo cierto es que hay una rama de la numerología que se dedica a descifrar mensajes que estos mensajeros de Dios nos envían y que nos pueden ayudar a manejar mejor las decisiones que tomamos. Las señales están ahí y la numerología angelical está hecha para descubrir los mensajes ocultos que provienen de estos seres divinos, así que creas o no en esta posibilidad, esto es todo lo que tienes que saber para interpretar estas señales angelicales.</p>
@@ -62,7 +55,8 @@
                </div>
         </div>
      </main>
-     <script type="text/javascript" src="js/num_angelical.js"></script>    
+     <script type="text/javascript" src="js/num_angelical.js"></script>  
+     <script type="text/javascript" src="js/menu_responsivo.js"></script>  
      <script>
          buscar();
      </script>

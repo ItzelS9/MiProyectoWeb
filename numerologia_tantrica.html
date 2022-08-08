@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tantrica.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tantrica</title>
 </head>
 <body>
@@ -12,25 +13,17 @@
         <img id="logo" src="mipag_web/logooficial.jpg" alt="logo">
         <h1 id="titulo" >Numerología Tantrica</h1>
         </header>
-        <!-- start nav -->
-        <nav id="listamenu">
-        <!-- start menu -->
-            <ul>
-                <li><a href="miproyecto_index.html"></a>Inicio</li>
-                <li><a href="#"></a>Numerologías
-                <!-- start menu desplegable -->
-                <ul>
-                    <li><a href="numerologia_angelical.html"><b>Angelical</b></a></li>
-                    <li><a href="numeros_y_planetas.html"><b>Números y Planetas</b></a></li>
-                </ul>
-                <!-- end menu desplegable -->
-                </li>
-                <li><a href="#que_es"></a>¿Que es?</li>
-                <li><a href="#numtantricos"></a>Numeros Tantricos</li>
-            </ul>
-        <!-- end menu -->
-        </nav>
-        <!-- end nav -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Portafolio</a>
+        <a href="#que_es">¿Qué es?</a>
+        <a href="#historia">Historia</a>
+        <a href="numerologia_angelical.html">Angelical</a>
+        <a href="numeros_y_planetas.html">Números y Planetas</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <p class="especiales">¡Aqui te enseñare todo sobre la numerología tantrica! no solo su historia y tipos, si no tambien como puedes sacarla</p>
     <center><img src="numerologia_tantrica/numbers.jpg" alt="lo_tantrico"></center>
     <br>
@@ -47,7 +40,7 @@
     </ul>
     <br>
     <br>
-    <h2>Historia</h2>
+    <h2 id="historia">Historia</h2>
     <p>La Numerología Evolutiva o más conocida como Tántrica, proviene de la cultura Sikh de la India. Ellos hacían referencia a la relación existente entre los números y los diferentes cuerpos energéticos de la persona y como podíamos llegar a este conocimiento a través de los símbolos numéricos que conforman nuestra fecha de nacimiento. Su base es el estudio profundo de nuestra forma de ser, mediante el análisis de cinco factores que conforman nuestra existencia, según el maestro Yogui Bhajan: <b>Alma, Karma, Regalo Divino, Destino y Vida</b>. Estos factores se calculan a partir de la fecha de nacimiento, lo que nos permite tener una orientación de nuestra forma de ser.</p> 
     <center><img src="numerologia_tantrica/numeros.jpg" alt="tantricos_numbers"></center>
     <p>El portal Sedibac explica que esta disciplina estudia la fecha de nacimiento para ayudarnos a comprender cuáles son nuestras reacciones internas y los impulsos que nos llevan a ser como somos. estos son los 5 factores:</p>
@@ -105,5 +98,6 @@
     <hr>
     <p class="especiales">Ahora que estas al tanto de lo que es, y como sacar cada uno de los tipos de numerologias tantricas. ¿¿Que esperas?! saca tus numeros e investiga sus significados.</p>
     <center><img src="numerologia_tantrica/relojes.jpg" alt="q_esperas"></center>
+    <script type="text/javascript" src="js/menu_responsivo.js"></script>
 </body>
 </html>
