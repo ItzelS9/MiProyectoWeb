@@ -192,6 +192,9 @@ p {
 /*las medidas riales*/
 /*smarthphone vertical*/
 @media (max-width:639px){
+  header {
+    height: 110px;
+  }
   .saludo {
     font-size: 28px;
   }
