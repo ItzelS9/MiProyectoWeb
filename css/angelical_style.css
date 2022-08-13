@@ -275,10 +275,6 @@ header {
 /*las medidas riales*/
 /*smarthphone vertical*/
 @media (max-width:639px){
-  body {
-    padding-left: 1%;
-    width: 92%;
-  }
   header {
     height: 110px;
   }
@@ -293,18 +289,32 @@ header {
     height: auto;
   }
   #segunda_img {
-    width: 301px;
+    width: 250px;
     height: auto;
   }
   #tercera_img {
     width: 240px;
     height: 170px;
   }
+  #el_libro {
+    width: 240px;
+    height: auto;
+  }
   #left > .display {
     width: 270px;
     height: 300px;
-    margin-left: 3px;
-    margin-top: 10px;
+    /*margin-left: 3px;
+    margin-top: 10px;*/
+  }
+  #left > .display {
+    margin-left: 0px;
+  }
+  #left > .display > img {
+    width: 200px;
+    height: 200px;
+  }
+  #dpad {
+    margin-top: 0px;
   }
 }
 /*smarthphone horizontal & tablets vertical*/ 
