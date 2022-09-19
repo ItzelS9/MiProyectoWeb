@@ -99,6 +99,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.numerosia {
+  color: rgb(49, 50, 85);
+}
+
 /*el menu desplegable*/
 /* Add a black background color to the top navigation */
 .topnav {
@@ -110,7 +114,7 @@ p {
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(49, 50, 85);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -120,7 +124,7 @@ p {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(156, 156, 156);
-    color: black;
+    color: rgb(27, 28, 54);
   }
   
   /* Add an active class to highlight the current page */
